@@ -24,11 +24,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="API\Controllers\" />
-      <Folder Include="Domain\CommandHandler\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\Loan.Leveling.Api\Loan.Leveling.Api.csproj" />
     </ItemGroup>
 

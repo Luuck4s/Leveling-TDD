@@ -11,4 +11,14 @@ public class Friend : Entity
         Name = name;
         BirthDate = birthDate;
     }
+
+    public void UpdateBirthDate(DateTime birthDate)
+    {
+        if (birthDate == BirthDate)
+        {
+            return;
+        }
+        BirthDate = birthDate;
+        IncrementVersion();
+    }
 }

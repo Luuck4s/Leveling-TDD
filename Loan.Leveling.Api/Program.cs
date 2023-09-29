@@ -17,7 +17,6 @@ builder.Services.AddTransient<IFriendRepository, FriendRepository>();
 
 var app = builder.Build();
 
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
